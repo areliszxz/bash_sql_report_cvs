@@ -1,0 +1,18 @@
+set realname = "arelis.mx"
+set from = "arelis.mx@gmail.com"
+set use_from = yes
+set envelope_from = yes
+
+set smtp_url = "smtps://arelis.mx@gmail.com@smtp.gmail.com:465/"
+set smtp_pass = "Arelismx3030jajaja"
+set imap_user = "arelis.mx@gmail.com"
+set imap_pass = "Arelismx3030jajaja"
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set ssl_force_tls = yes
+
+# G to get mail
+bind index G imap-fetch-mail
+set editor = "vim"
+set charset = "utf-8"
+set record = ''
